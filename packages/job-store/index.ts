@@ -1,5 +1,5 @@
-import { Job, JobStatus } from "@tts-xonika/shared-types";
 import { randomUUID } from "crypto";
+import { Job } from "../shared-types";
 
 const jobStore = new Map<string, Job>();
 

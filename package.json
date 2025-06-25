@@ -1,0 +1,10 @@
+{
+  "name": "tts-xonika",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "version": "1.0.0",
+  "description": "Text-to-Speech application using Vite, React, MUI, and Gemini API"
+}

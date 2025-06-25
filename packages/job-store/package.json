@@ -1,0 +1,12 @@
+{
+  "name": "@tts-xonika/job-store",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "license": "MIT",
+  "dependencies": {
+    "@tts-xonika/shared-types": "1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.5"
+  }
+}

@@ -12,7 +12,7 @@
 ## 2. Структура проекта (Монорепозиторий)
 
 ```
-/tts-app
+/tts-xonika
 ├── package.json             # Главный package.json для Yarn Workspaces
 ├── /apps
 │   └── /frontend            # Vite + React + MUI приложение

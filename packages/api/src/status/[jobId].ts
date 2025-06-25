@@ -1,5 +1,5 @@
 import type { VercelRequest, VercelResponse } from "@vercel/node";
-import { getJob } from "@tts-xonika/job-store";
+import { getJob } from "../../../job-store";
 
 export default function handler(req: VercelRequest, res: VercelResponse) {
   if (req.method !== "GET") {

@@ -1,6 +1,6 @@
 import type { VercelRequest, VercelResponse } from "@vercel/node";
-import { createJob, updateJob } from "@tts-xonika/job-store";
-import { ApiTtsRequest, ApiTtsResponse } from "@tts-xonika/shared-types";
+import { createJob, updateJob } from "../../job-store";
+import { ApiTtsRequest, ApiTtsResponse } from "../../shared-types";
 
 // This is a placeholder for the actual audio generation logic
 const processAudioGeneration = async (jobId: string, body: ApiTtsRequest) => {

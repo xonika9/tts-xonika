@@ -25,7 +25,7 @@ import type {
   Job,
   JobStatus,
   VoiceConfig,
-} from "@tts-xonika/shared-types";
+} from "../packages/shared-types";
 
 const availableVoices = ["alloy", "echo", "fable", "onyx", "nova", "shimmer"];
 
